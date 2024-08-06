@@ -3508,6 +3508,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
+    width: 500px;
   }
 .main h1 {
     font-size: 2.4rem;
@@ -3515,7 +3516,16 @@ body {
 .main h2 {
     font-size: 1.6rem;
 }
+.profile-photo {
+    text-align: center;
+}
+.profile-photo img {
+    width: 200px;
+}
 @media (min-width: 768px) {
+    .main {
+        width: auto;
+    }
     .main h1 {
         font-size: 3.6rem;
     }
